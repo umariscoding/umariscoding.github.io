@@ -70,7 +70,7 @@ button { cursor: none; }
 .nav {
   position: fixed; top: 0; left: 0; right: 0;
   z-index: 1000;
-  padding: 1.2rem 1rem;
+  padding: 1.2rem 5rem;
   display: flex; justify-content: space-between; align-items: center;
   backdrop-filter: blur(20px);
   background: rgba(10, 10, 10, 0.85);
@@ -162,7 +162,7 @@ button { cursor: none; }
 .hero {
   min-height: 100vh;
   display: flex; flex-direction: column; justify-content: center;
-  padding: 7rem 1rem 3rem;
+  padding: 7rem 5rem 3rem;
   position: relative; overflow: hidden;
 }
 
@@ -388,7 +388,7 @@ button { cursor: none; }
 
 /* Section */
 .section {
-  padding: 5rem 1rem;
+  padding: 5rem 5rem;
 }
 
 .section-header {
@@ -693,7 +693,7 @@ button { cursor: none; }
 
 /* Footer */
 .footer {
-  padding: 5rem 1rem;
+  padding: 5rem 5rem;
   border-top: 1px solid var(--border);
   text-align: center;
 }
@@ -742,14 +742,14 @@ button { cursor: none; }
   .cursor-dot, .cursor-ring { display: none; }
   a, button { cursor: auto; }
 
-  .nav { padding: 1rem 0.5rem; }
+  .nav { padding: 1rem 3rem; }
   .nav-links, .nav-status { display: none; }
   .hamburger { display: flex; }
 
-  .hero { padding: 6rem 0.5rem 2.5rem; }
+  .hero { padding: 6rem 3rem 2.5rem; }
   .hero-name { letter-spacing: -2px; }
 
-  .section { padding: 3.5rem 0.5rem; }
+  .section { padding: 3.5rem 3rem; }
   .project-card { padding: 1rem; }
   .research-card { padding: 1.2rem; }
   .edu-card { padding: 1.2rem; }
@@ -772,7 +772,7 @@ button { cursor: none; }
 
   .extras-row { flex-direction: column; }
 
-  .footer { padding: 3.5rem 0.5rem; }
+  .footer { padding: 3.5rem 3rem; }
   .footer-links { flex-direction: column; align-items: center; gap: 1rem; }
 
   .hero-scroll { display: none; }
