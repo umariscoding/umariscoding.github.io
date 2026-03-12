@@ -742,14 +742,17 @@ button { cursor: none; }
   .cursor-dot, .cursor-ring { display: none; }
   a, button { cursor: auto; }
 
-  .nav { padding: 1rem 1rem; }
+  .nav { padding: 1rem 0.5rem; }
   .nav-links, .nav-status { display: none; }
   .hamburger { display: flex; }
 
-  .hero { padding: 6rem 1rem 2.5rem; }
+  .hero { padding: 6rem 0.5rem 2.5rem; }
   .hero-name { letter-spacing: -2px; }
 
-  .section { padding: 3.5rem 1rem; }
+  .section { padding: 3.5rem 0.5rem; }
+  .project-card { padding: 1rem; }
+  .research-card { padding: 1.2rem; }
+  .edu-card { padding: 1.2rem; }
   .section-header { flex-wrap: wrap; gap: 0.6rem; margin-bottom: 2rem; }
   .section-line { display: none; }
 
@@ -769,7 +772,7 @@ button { cursor: none; }
 
   .extras-row { flex-direction: column; }
 
-  .footer { padding: 3.5rem 1rem; }
+  .footer { padding: 3.5rem 0.5rem; }
   .footer-links { flex-direction: column; align-items: center; gap: 1rem; }
 
   .hero-scroll { display: none; }
