@@ -23,8 +23,6 @@ body {
   overflow-x: hidden;
   line-height: 1.6;
   cursor: none;
-  margin-left: 3rem; /* Adjust as needed */
-  margin-right: 3rem; /* Adjust as needed */
 }
 
 ::selection { background: var(--accent); color: var(--bg); }
